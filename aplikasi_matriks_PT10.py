@@ -5,7 +5,9 @@
 import os
 def penjumlahan():
     #print("=" * 90)    
-    print("penjumlahan")
+    print("Penjumlahan matriks")
+    print(" ")
+    print("Masukkan angka untuk Matriks 1")
     print(" ")
     bl1 =int(input("masukan kolom anda 1: "))
     bl2 =int(input("masukan kolom anda 2: "))
@@ -16,67 +18,53 @@ def penjumlahan():
     bl7 =int(input("masukan kolom anda 1: "))
     bl8 =int(input("masukan kolom anda 2: "))
     bl9 =int(input("masukan kolom anda 3: "))
-    matriks = ([(bl1),(bl2),(bl3)],[(bl4),(bl5),(bl6)],[(bl7),(bl8),(bl9)])
+    matriks1 = ([(bl1),(bl2),(bl3)],[(bl4),(bl5),(bl6)],[(bl7),(bl8),(bl9)])
+    os.system('cls')
 
+    print("Masukkan angka untuk Matriks 2")
+    print(" ")
+    bl1 =int(input("masukan kolom anda 1: "))
+    bl2 =int(input("masukan kolom anda 2: "))
+    bl3 =int(input("masukan kolom anda 3: "))
+    bl4 =int(input("masukan kolom anda 1: "))
+    bl5 =int(input("masukan kolom anda 2: "))
+    bl6 =int(input("masukan kolom anda 3: "))
+    bl7 =int(input("masukan kolom anda 1: "))
+    bl8 =int(input("masukan kolom anda 2: "))
+    bl9 =int(input("masukan kolom anda 3: "))
+    matriks2 = ([(bl1),(bl2),(bl3)],[(bl4),(bl5),(bl6)],[(bl7),(bl8),(bl9)])
+    os.system('cls')
+
+    print("Matriks 1")
+    for i in range (3):
+        print(matriks1[i])
+
+    print("\nMatriks 2")
     for i in range (3): 
-        print(matriks[i])
+        print(matriks2[i])
+
+    #for x in range(0, len(matriks1)):
+    #    for y in range(0, len(matriks1[0])):
+    #        print (matriks1[x][y] + matriks2[x][y], end=' ')
+    #    print
 
 #Pengurangan
 def pengurangan():
     #print("=" * 90)
     print("Pengurangan")
     print(" ")
-    bl1 =int(input("masukan kolom anda 1: "))
-    bl2 =int(input("masukan kolom anda 2: "))
-    bl3 =int(input("masukan kolom anda 3: "))
-    bl4 =int(input("masukan kolom anda 1: "))
-    bl5 =int(input("masukan kolom anda 2: "))
-    bl6 =int(input("masukan kolom anda 3: "))
-    bl7 =int(input("masukan kolom anda 1: "))
-    bl8 =int(input("masukan kolom anda 2: "))
-    bl9 =int(input("masukan kolom anda 3: "))
-    matriks = ([(bl1),(bl2),(bl3)],[(bl4),(bl5),(bl6)],[(bl7),(bl8),(bl9)])
-
-    for i in range (3): 
-        print(matriks[i])
 
 #Perkalian
 def perkalian():
     #print("=" * 90)
     print("Perkalian")
     print(" ")
-    bl1 =int(input("masukan kolom anda 1: "))
-    bl2 =int(input("masukan kolom anda 2: "))
-    bl3 =int(input("masukan kolom anda 3: "))
-    bl4 =int(input("masukan kolom anda 1: "))
-    bl5 =int(input("masukan kolom anda 2: "))
-    bl6 =int(input("masukan kolom anda 3: "))
-    bl7 =int(input("masukan kolom anda 1: "))
-    bl8 =int(input("masukan kolom anda 2: "))
-    bl9 =int(input("masukan kolom anda 3: "))
-    matriks = ([(bl1),(bl2),(bl3)],[(bl4),(bl5),(bl6)],[(bl7),(bl8),(bl9)])
-
-    for i in range (3): 
-        print(matriks[i])
 
 #Transpose
 def transpose():
     #print("=" * 90)
     print("Transpose")
     print(" ")
-    bl1 =int(input("masukan kolom anda 1: "))
-    bl2 =int(input("masukan kolom anda 2: "))
-    bl3 =int(input("masukan kolom anda 3: "))
-    bl4 =int(input("masukan kolom anda 1: "))
-    bl5 =int(input("masukan kolom anda 2: "))
-    bl6 =int(input("masukan kolom anda 3: "))
-    bl7 =int(input("masukan kolom anda 1: "))
-    bl8 =int(input("masukan kolom anda 2: "))
-    bl9 =int(input("masukan kolom anda 3: "))
-    matriks = ([(bl1),(bl2),(bl3)],[(bl4),(bl5),(bl6)],[(bl7),(bl8),(bl9)])
-
-    for i in range (3): 
-        print(matriks[i])
 
 kondisi = True
 
